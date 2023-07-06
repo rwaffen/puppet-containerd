@@ -1,0 +1,6 @@
+---
+containerd::repo::dnf_config:
+  descr: 'Docker CE Stable - $basearch'
+  baseurl: 'https://download.docker.com/linux/centos/$releasever/$basearch/stable'
+  gpgcheck: 1
+  gpgkey: 'https://download.docker.com/linux/centos/gpg'
