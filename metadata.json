@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "author": "Robert Waffen",
   "summary": "Manage containerd",
-  "license": "bsd-3",
-  "source": "",
-  "dependencies": [],
+  "license": "BSD-3-Clause",
+  "source": "https://github.com/rwaffen/puppet-containerd",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.13.1 < 10.0.0"
+    }
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "CentOS",
